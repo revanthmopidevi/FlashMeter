@@ -16,7 +16,7 @@ router.get('/words', (req, res) => {
 
 router.get('/numbers', (req, res) => {
     const response = {
-        "number": Math.floor(Math.random() * 10000)
+        "number": Math.floor(Math.random() * 100000)
     }
     res.send(response)
 })
