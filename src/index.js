@@ -11,6 +11,10 @@ app.use(express.json())
 app.use('/app', genRouter)
 app.use(flashRouter)
 
+app.get('/*', (req, res) => {
+    res.status(404).send()
+})
+
 
 app.listen(port, () => {
     console.log(`server running on port ${port}.`)
