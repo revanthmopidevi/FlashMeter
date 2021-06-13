@@ -1,0 +1,24 @@
+{
+  "name": "flashmeter",
+  "version": "1.0.0",
+  "description": "flash meter app for perception training",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/revanthmopidevi/FlashMeter.git"
+  },
+  "author": "revanth mopidevi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/revanthmopidevi/FlashMeter/issues"
+  },
+  "homepage": "https://github.com/revanthmopidevi/FlashMeter#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "random-words": "^1.1.1",
+    "rword": "^3.2.0"
+  }
+}
